@@ -35,7 +35,7 @@ export function AboutPage() {
         <div className="container md:px-0">
           <div className="row">
             <div className="col md:w-1/3">
-              <img src="/images/about/intro.svg" alt={site.name} className="w-full h-auto object-contain" width={1600} height={1187} />
+              <img src="/images/products/commune-industries-infra.jpeg" alt={site.name} className="w-full h-auto object-contain" width={1600} height={1187} />
             </div>
             <div className="col md:w-2/3 md:pl-12">
               <div className="row justify-start">
@@ -152,7 +152,7 @@ export function AboutPage() {
           <div className="w-full text-center">
             <h2>Our Company</h2>
             <br />
-            <img src="/images/about/company-team.svg" alt={`${site.name} team`} className="max-w-full h-auto inline-block" width={1280} height={720} />
+            <img src="/images/parent-company-team-photo.jpeg" alt={`${site.name} team`} className="max-w-full h-auto inline-block" width={1280} height={720} />
           </div>
         </div>
       </section>

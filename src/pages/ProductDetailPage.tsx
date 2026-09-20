@@ -31,7 +31,7 @@ export function ProductDetailPage({ slug }: { slug: string }) {
             <div className="col md:w-1/2 flex">
               <div
                 className="w-full self-stretch bg-contain bg-no-repeat bg-center my-[35px] max-md:h-[400px]"
-                style={{ backgroundImage: `url(${page.image})` }}
+                style={{ backgroundImage: `url("${page.image}")` }}
                 role="img"
                 aria-label={page.title}
               />

@@ -38,6 +38,41 @@ const titles: [slug: string, title: string, topic: string][] = [
   ['what-is-cast-iron-powder', 'What Is Cast Iron Powder? Types, Production and Key Benefits', 'cast iron powder fundamentals'],
 ];
 
+/** Blog cover images, in the same order as `titles`. */
+const images: string[] = [
+  '/images/blog/cast-iron-powder-grades.png',
+  '/images/blog/cast-iron-powder-bulk-density-why-it-matters.png',
+  '/images/blog/cast-iron-powder-chemical-composition.png',
+  '/images/blog/cast-iron-powder-quality-testing.png',
+  '/images/blog/custom-iron-powder-mesh-sizes.png',
+  '/images/blog/iron-powder-quality-testing.png',
+  '/images/blog/iso-certified-indian-iron-powder-supplier.png',
+  '/images/blog/high-purity-iron-powder-supplier.png',
+  '/images/blog/iron-powder-mesh-size-guide.png',
+  '/images/blog/role-of-iron-powder-in-diamond-tool-manufacturing.png',
+  '/images/blog/how-iron-powder-improves-brake-pad-performance.png',
+  '/images/blog/powder-metallurgy-process-iron-powder-manufacturing.png',
+  '/images/blog/Cast-iron-powder-mesh-size-guide-by-Comune-Industries.png',
+  '/images/blog/Importing-cast-iron-powder-from-trusted-Indian-manufacturers.png',
+  '/images/blog/Cast-iron-powder-used-in-industrial-welding-applications.jpg',
+  '/images/blog/low-quality-cast-iron-powder-warning-signs-inspection.jpg',
+  '/images/blog/cast-iron-powder-particle-shape.jpg',
+  '/images/blog/global-demand-of-cast-iron-powder.jpg',
+  '/images/blog/Difference-Between-Atomized-and-reduced-iron-powder.jpg',
+  '/images/blog/cast-iron-powder-grades-and-industrial-uses.jpg',
+  '/images/blog/Iron-powder-for-construction-concrete-and-flooring.jpg',
+  '/images/blog/Iron-powder-quality-testing-before-buying.jpg',
+  '/images/blog/Iron-powder-export-from-India-packaging-and-regulations.jpg',
+  '/images/blog/Cast Iron Powder Is Powering Next-Gen Automotive Parts.jpg',
+  '/images/blog/High-purity reduction iron powder for industrial use.png',
+  '/images/blog/Industrial cast iron powder free sample India.jpg',
+  '/images/blog/Cast iron powder supplier selection factors.jpg',
+  '/images/blog/Liquid Glucose in Confectionery.jpg',
+  '/images/blog/Cast Iron Powder vs Iron Powder The Right Choice.jpg',
+  "/images/blog/Reduction Grade Iron Powder Why It's Essential for High-Purity Applications.jpg",
+  '/images/blog/cast-iron-powder-types-production-benefits.jpg',
+];
+
 const specTable: string[][] = [
   ['<strong>Specification</strong>', '<strong>Why It Matters</strong>'],
   ['Grade / mesh size', 'Sets the particle-size range and suitability for the application'],
@@ -177,7 +212,7 @@ const START = new Date('2026-09-01T00:00:00Z').getTime();
 export const blogPosts: BlogPost[] = titles.map(([slug, title, topic], i) => ({
   slug,
   title,
-  image: `/images/blog/${slug}.svg`,
+  image: images[i],
   excerpt: `A practical look at ${topic} for buyers and engineers working with cast iron powder.`,
   date: new Date(START - i * 9 * 86400000).toISOString().slice(0, 10),
   body: i === 0 ? gradesGuideBody : buildBody(title, topic),
