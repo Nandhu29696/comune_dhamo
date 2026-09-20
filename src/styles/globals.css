@@ -119,6 +119,9 @@
   .nav-link:hover::before {
     @apply w-full;
   }
+  .nav-link.active::before {
+    @apply w-full;
+  }
   @media (max-width: 991.98px) {
     .nav-link {
       @apply px-0 py-[0.7rem] text-black;
@@ -133,7 +136,7 @@
   }
   @media (max-width: 767.98px) {
     .nav-link {
-      border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+      border-bottom: 1px solid rgba(0, 0, 0, 0.12);
     }
   }
 
@@ -160,7 +163,8 @@
     @apply block w-full whitespace-nowrap px-6 py-1 text-[14px] text-black bg-transparent;
   }
   .dropdown-item:hover,
-  .dropdown-item:focus {
+  .dropdown-item:focus,
+  .dropdown-item.active {
     @apply bg-brand text-white;
   }
   @media (max-width: 991.98px) {

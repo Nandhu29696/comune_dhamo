@@ -69,7 +69,11 @@ export function NavDropdown({ item, isMobile, onNavigate }: NavDropdownProps) {
       <ul className={cn('dropdown-menu', open ? 'block' : 'hidden')} aria-labelledby="productsDropdown">
         {item.children?.map((c) => (
           <li key={c.to}>
-            <NavLink to={c.to} className="dropdown-item" onClick={onNavigate}>
+            <NavLink
+              to={c.to}
+              className={({ isActive }) => cn('dropdown-item', isActive && 'active')}
+              onClick={onNavigate}
+            >
               {c.label}
             </NavLink>
           </li>
