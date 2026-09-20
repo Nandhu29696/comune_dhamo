@@ -3,37 +3,37 @@ import type { Achievement, FeatureItem, Product, TeamMember } from '@/types';
 /** Products page gallery: row 1 has three items, row 2 has two (matches the reference). */
 export const productGalleryRows: Product[][] = [
   [
-    { slug: 'mesh-120', name: 'Cast Iron Powder -120 Mesh', image: '/images/products/mesh-120.svg' },
-    { slug: 'mesh-100', name: 'Cast Iron Powder -100 Mesh', image: '/images/products/mesh-100.svg' },
-    { slug: 'mesh-60-100', name: 'Cast Iron Powder 60 to 100 Mesh', image: '/images/products/mesh-60-100.svg' },
+    { slug: 'mesh-120', name: 'Cast Iron Powder -120 Mesh', image: '/images/products/Mash-size-120.png' },
+    { slug: 'mesh-100', name: 'Cast Iron Powder -100 Mesh', image: '/images/products/Mash-size-100.png' },
+    { slug: 'mesh-60-100', name: 'Cast Iron Powder 60 to 100 Mesh', image: '/images/products/Mash-size-60-100.png' },
   ],
   [
-    { slug: 'mesh-30-60', name: 'Cast Iron Powder 30 to 60 Mesh', image: '/images/products/mesh-30-60.svg' },
-    { slug: 'mesh-10-30', name: 'Cast Iron Powder 10 to 30 Mesh', image: '/images/products/mesh-10-30.svg' },
+    { slug: 'mesh-30-60', name: 'Cast Iron Powder 30 to 60 Mesh', image: '/images/products/Mash-size-30-60.png' },
+    { slug: 'mesh-10-30', name: 'Cast Iron Powder 10 to 30 Mesh', image: '/images/products/cast-Iron-powder-10-30gr-new.webp' },
   ],
 ];
 
-export const gradesTableImage = '/images/grades-table.svg';
+export const gradesTableImage = '/images/products/Cast-Iron-Powder-Grades.png';
 
 export const homeFeatures: FeatureItem[] = [
   {
-    icon: '/images/icons/high-quality.svg',
+    icon: '/images/high-quality.png',
     title: 'High-Quality Cast Iron Powder',
     text: 'With more than a decade of experience, we deliver premium <b>cast iron powder</b> valued for its quality, consistency and dependable performance in industry.',
   },
   {
-    icon: '/images/icons/expertise.svg',
+    icon: '/images/Expertise-Experience.png',
     title: 'Expertise and Experience',
     text: 'Our depth of experience in cast iron powder manufacturing lets us engineer tailored solutions that fit the specific needs of every client.',
   },
   {
-    icon: '/images/icons/quick.svg',
+    icon: '/images/quick.png',
     title: 'Quick & Efficient',
     text: 'We focus on fast dispatch and efficient processing, giving you quick access to cast iron powder without compromising quality or your production schedule.',
     extraBreak: true,
   },
   {
-    icon: '/images/icons/support.svg',
+    icon: '/images/Dedicated-Support.png',
     title: 'Dedicated Support',
     text: 'Our team is always on hand, providing dedicated support so that your orders are processed smoothly and delivered on time.',
     extraBreak: true,
@@ -41,25 +41,25 @@ export const homeFeatures: FeatureItem[] = [
 ];
 
 export const achievements: Achievement[] = [
-  { title: 'ISO 9001:2015 Certificate', image: '/images/achievement/cert-1.svg' },
-  { title: 'Export House Certificate', image: '/images/achievement/cert-2.svg' },
-  { title: 'ISO 9001:2015 Accreditation', image: '/images/achievement/cert-3.svg' },
-  { title: 'GMP Certificate', image: '/images/achievement/cert-4.svg' },
-  { title: 'ISO 14001:2015 Certificate', image: '/images/achievement/cert-5.svg' },
-  { title: 'MSME Rating Certificate', image: '/images/achievement/cert-6.svg' },
+  { title: 'ISO 9001:2015 Certificate', image: '/images/achievement/ISO-9001-2015-UKAF-1.jpg' },
+  { title: 'Export House Certificate', image: '/images/achievement/export-house-certificate.webp' },
+  { title: 'ISO 9001:2015 Accreditation', image: '/images/achievement/ISO-9001-2015-UKAF.webp' },
+  { title: 'GMP Certificate', image: '/images/achievement/WHO-GMP.webp' },
+  { title: 'ISO 14001:2015 Certificate', image: '/images/achievement/ISO-14001-2015-UKAF.webp' },
+  { title: 'MSME Rating Certificate', image: '/images/achievement/export-certificate.webp' },
 ];
 
 export const teamMembers: TeamMember[] = [
-  { name: 'Suresh Patel', role: 'Managing Director', image: '/images/team/member-1.svg' },
-  { name: 'Dev Patel', role: 'Managing Director', image: '/images/team/member-2.svg' },
-  { name: 'Bhavesh Patel', role: 'Production Manager', image: '/images/team/member-3.svg' },
-  { name: 'Mahesh Shah', role: 'Senior Accountant', image: '/images/team/member-4.svg' },
-  { name: 'Kiran Desai', role: 'Senior Accountant', image: '/images/team/member-5.svg' },
-  { name: 'Anil Rathod', role: 'Laboratory Technician', image: '/images/team/member-6.svg' },
-  { name: 'Nilesh Joshi', role: 'Maintenance In-charge', image: '/images/team/member-7.svg' },
+  { name: 'Suresh Patel', role: 'Managing Director', image: '/images/Snehal R patel.jpg' },
+  { name: 'Dev Patel', role: 'Managing Director', image: '/images/Darvin S Patel.jpg' },
+  { name: 'Bhavesh Patel', role: 'Production Manager', image: '/images/Bhavik.jpg' },
+  { name: 'Mahesh Shah', role: 'Senior Accountant', image: '/images/Mayur.jpg' },
+  { name: 'Kiran Desai', role: 'Senior Accountant', image: '/images/Kantilal.jpg' },
+  { name: 'Anil Rathod', role: 'Laboratory Technician', image: '/images/Arvind.jpg' },
+  { name: 'Nilesh Joshi', role: 'Maintenance In-charge', image: '/images/Nandlal.jpg' },
 ];
 
 export const infraImages = [
-  { src: '/images/about/infra-1.svg', alt: 'Production Unit' },
-  { src: '/images/about/infra-2.svg', alt: 'Modern Machinery' },
+  { src: '/images/products/cast-iron-infra.jpeg', alt: 'Production Unit' },
+  { src: '/images/products/cast-iron-infrastructure.jpeg', alt: 'Modern Machinery' },
 ];

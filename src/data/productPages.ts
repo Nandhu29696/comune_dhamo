@@ -2,7 +2,7 @@ import type { ProductPage } from '@/types';
 import { site } from '@/config/site';
 
 const N = site.name;
-const IMG = '/images/products/detail.svg';
+const IMG = '/images/products/cast-Iron-powder-120gr.webp';
 
 export const productPages: ProductPage[] = [
   {

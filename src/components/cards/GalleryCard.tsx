@@ -21,7 +21,7 @@ export function GalleryCard({ image, alt, caption, overlayTitle, onOpen, revealI
   const ref = useRevealOnScroll<HTMLDivElement>();
   return (
     <div ref={ref} data-reveal-index={revealIndex} className={className}>
-      <div className="gallery flex items-end" style={{ backgroundImage: `url(${image})` }} role="img" aria-label={alt}>
+      <div className="gallery flex items-end" style={{ backgroundImage: `url("${image}")` }} role="img" aria-label={alt}>
         <a
           href={image}
           className="gallery-icon"

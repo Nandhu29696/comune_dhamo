@@ -10,7 +10,7 @@ interface Slide {
 
 const slides: Slide[] = [
   {
-    image: '/images/test.jpg',
+    image: '/images/slider/test.jpg',
     title: 'Cast Iron Powder',
     subtitle: 'Production capacity of 1500 tons per month',
   },

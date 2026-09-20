@@ -12,7 +12,7 @@ export const site = {
   founder: 'Shree Ramanbhai M. Patel',
   foundedYear: 1988,
   logo: '/images/Ambica-logo.webp',
-  logoMark: '/images/logo-mark.svg',
+  logoMark: '/images/logo.webp',
   phones: [
     { label: '+91-9876543210', href: 'tel:+91-9876543210' },
     { label: '+91-6300000000', href: 'tel:+91-6300000000' },
@@ -40,8 +40,8 @@ export const site = {
   seoAgency: { name: 'Your SEO Partner', href: '#' },
   groupCompanies: ['Swastik Alloys', 'Precision Powder Products', 'Ambika Industries'],
   parentCompanies: [
-    { name: 'Swastik Alloys', href: '#', logo: '/images/parent/group-logo-1.svg', width: 338 },
-    { name: 'Precision Powder Products', href: '#', logo: '/images/parent/group-logo-2.svg', width: 350 },
+    { name: 'Swastik Alloys', href: '#', logo: '/images/Shree Swastik.png', width: 338 },
+    { name: 'Precision Powder Products', href: '#', logo: '/images/Perfact-powder-product-logo.png', width: 350 },
   ],
 } as const;
 

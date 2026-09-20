@@ -1,4 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-<circle cx="256" cy="256" r="240" fill="#a04838" opacity="0.08"/>
-<g fill="none" stroke="#a04838" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"><path d="M256 96 L296 136 L352 128 L360 184 L408 216 L384 264 L408 312 L360 344 L352 400 L296 392 L256 432 L216 392 L160 400 L152 344 L104 312 L128 264 L104 216 L152 184 L160 128 L216 136 Z"/><path d="M200 262 L240 302 L318 218"/></g>
-</svg>

@@ -19,7 +19,7 @@ export function PageBanner({ title, crumbs, compactTitle, fluid }: PageBannerPro
   return (
     <section
       className="relative w-full h-banner bg-cover bg-no-repeat bg-[position:top_center] max-xl:!bg-center"
-      style={{ backgroundImage: "url('/images/page-banner.svg')" }}
+      style={{ backgroundImage: "url('/images/head.webp')" }}
     >
       <div className="absolute inset-0 bg-black opacity-30" />
       <div className={cn(fluid ? 'container-fluid' : 'container', 'relative')}>
