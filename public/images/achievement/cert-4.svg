@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1131" viewBox="0 0 800 1131">
+<rect width="800" height="1131" fill="#fdfcfb"/>
+<rect x="30" y="30" width="740" height="1071" fill="none" stroke="#a04838" stroke-width="6"/>
+<rect x="48" y="48" width="704" height="1035" fill="none" stroke="#b18077" stroke-width="2"/>
+<text x="400" y="200" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="30" font-weight="600" fill="#777" letter-spacing="8">CERTIFICATE</text>
+<text x="400" y="320" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="46" font-weight="800" fill="#a04838">GMP</text>
+<text x="400" y="380" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="22" font-weight="500" fill="#555">Good Manufacturing Practice</text>
+<rect x="120" y="470" width="560" height="12" rx="6" fill="#ddd"/><rect x="120" y="510" width="470" height="12" rx="6" fill="#ddd"/><rect x="120" y="550" width="380" height="12" rx="6" fill="#ddd"/><rect x="120" y="590" width="560" height="12" rx="6" fill="#ddd"/><rect x="120" y="630" width="470" height="12" rx="6" fill="#ddd"/><rect x="120" y="670" width="380" height="12" rx="6" fill="#ddd"/><rect x="120" y="710" width="560" height="12" rx="6" fill="#ddd"/><rect x="120" y="750" width="470" height="12" rx="6" fill="#ddd"/><rect x="120" y="790" width="380" height="12" rx="6" fill="#ddd"/>
+<circle cx="400" cy="930" r="70" fill="none" stroke="#a04838" stroke-width="8"/>
+<circle cx="400" cy="930" r="48" fill="#a04838" opacity="0.15"/>
+<text x="400" y="940" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="22" font-weight="700" fill="#a04838">SEAL</text>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1228" height="1650" viewBox="0 0 1228 1650">
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="hsl(200,20%,78%)"/><stop offset="1" stop-color="hsl(200,18%,52%)"/></linearGradient></defs>
+<rect width="1228" height="1650" fill="url(#g)"/>
+<circle cx="614" cy="640" r="250" fill="#fff" opacity="0.85"/>
+<path d="M214 1650 C214 1150 1014 1150 1014 1650 Z" fill="#fff" opacity="0.85"/>
+<text x="614" y="700" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="180" font-weight="700" fill="#a04838">DP</text>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="754" height="140" viewBox="0 0 754 140">
+<rect width="754" height="140" fill="none"/>
+<g transform="translate(20,20)">
+  <circle cx="50" cy="50" r="50" fill="#b18077"/>
+  <circle cx="50" cy="50" r="34" fill="#fff"/>
+  <circle cx="50" cy="50" r="18" fill="#a04838"/>
+</g>
+<text x="150" y="78" font-family="Poppins, Arial, sans-serif" font-size="52" font-weight="800" fill="#a04838">PRECISION POWDER</text>
+<text x="152" y="112" font-family="Poppins, Arial, sans-serif" font-size="20" font-weight="600" fill="#666" letter-spacing="6">PRODUCTS</text>
+</svg>
