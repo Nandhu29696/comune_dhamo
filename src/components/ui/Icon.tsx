@@ -18,7 +18,8 @@ export type IconName =
   | 'whatsapp'
   | 'close'
   | 'chevron-left'
-  | 'chevron-right';
+  | 'chevron-right'
+  | 'chevron-down';
 
 interface IconProps extends SVGProps<SVGSVGElement> {
   name: IconName;
@@ -73,6 +74,7 @@ const paths: Record<IconName, ReactElement> = {
   close: <path d="M6 6l12 12M18 6L6 18" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" />,
   'chevron-left': <path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />,
   'chevron-right': <path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />,
+  'chevron-down': <path d="M5 9l7 7 7-7" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />,
 };
 
 export function Icon({ name, size = '1em', className, ...rest }: IconProps) {

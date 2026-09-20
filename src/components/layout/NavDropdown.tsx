@@ -1,6 +1,7 @@
 import { useRef, useState } from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
 import type { NavItem } from '@/config/site';
+import { Icon } from '@/components/ui/Icon';
 import { cn } from '@/utils/cn';
 
 /**
@@ -65,6 +66,7 @@ export function NavDropdown({ item, isMobile, onNavigate }: NavDropdownProps) {
         }}
       >
         {item.label}
+        <Icon name="chevron-down" size={14} className="ml-1" />
       </NavLink>
       <ul className={cn('dropdown-menu', open ? 'block' : 'hidden')} aria-labelledby="productsDropdown">
         {item.children?.map((c) => (
